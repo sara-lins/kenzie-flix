@@ -40,7 +40,7 @@ html {
     justify-content: center;
 }
 
-a {
+a { /*declaração para tirar os pontos das LI's*/
     text-decoration: none;
 }
 
