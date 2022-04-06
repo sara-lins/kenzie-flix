@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: 0;
+}
+
+html {
+    background-color: #1c1c1c;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.kenzieflix { /*ESTLILIZAÇÃO DA LOGO*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.introducao { /*"QUEM ESTÁ ASSISTINDO"*/
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    margin: 30px;
+}
+
+.container { /*CONFIGURAÇÕES DO CONTAINER NAS IMAGENS*/
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img {/*configuração das IMG'S*/
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.img:hover {/*HOVER NAS IMG'S*/
+    transform: scale(1.1);
+}
+
+.img-perfil:hover { /*hover específico da imagem cinza*/
+    opacity: 2%;
+}
+
+ul { /*CONFGURAÇÃO DAS UL'S*/
+    display: flex;
+    width: 720px;  
+    height: 202px;
+}
+
+.nomes { /*ESTILIZAÇÃO DO CONTAINER:NOMES*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 50px;
+}
+
+.nome1, .nome2, .nome3, .nome4 { /*ESTILIZAÇÃO INDIVIDUAL DOS NOMES*/
+    margin: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+li { /*ESTILIZAÇÃO DAS LISTAS DE IMAGENS*/
+    margin: 10px;
+    list-style: none;
+    overflow: hidden; /*não permite o zoom exceder as bordas da imagem*/
+    border-radius: 13px; /*deixa a borda do overflow redonda (pois depois que aplica o overflow, ele tira o border-radius)*/
+}
+
+.li-addPerfil { /*ESTLIZAÇÃO DA IMAGEM: ADICIONAR PERFIL*/
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1c1c;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+.li-addPerfil:hover { /*hover da imagem branca*/
+    transform: scale(1.1);
+    background-image: url(./imgs/Frame\ 5.png);
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.button{/*configurações do container button*/ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 10px;
+}
+
+button {/*estilização do button*/
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    
+    border-radius: 13px;
+    border-width: 2px;
+    border-color: white;
+    background-color: #1c1c1c;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+button:hover {/*hover do button*/
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+/*falta ajustar os nomes*/
+
